@@ -4,7 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Innoboxrr\\LaravelConnect\\": "src/"
+            "Innoboxrr\\LaravelConnect\\": "src/",
+            "Innoboxrr\\LaravelConnect\\Database\\Factories\\": "database/factories/"
         }
     },
     "authors": [
@@ -25,6 +26,11 @@
                 "Innoboxrr\\LaravelConnect\\Providers\\EventServiceProvider",
                 "Innoboxrr\\LaravelConnect\\Providers\\RouteServiceProvider"
             ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Innoboxrr\\LaravelConnect\\Tests\\": "tests/"
         }
     }
 }
