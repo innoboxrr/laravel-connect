@@ -1,0 +1,17 @@
+{
+    "name": "innoboxrr/laravel-connect",
+    "description": "Conectar multiples servicios para laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Innoboxrr\\LaravelConnect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Homero Raul",
+            "email": "h.raulvc@gmail.com"
+        }
+    ],
+    "require": {}
+}
