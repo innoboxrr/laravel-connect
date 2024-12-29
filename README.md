@@ -11,24 +11,24 @@ Laravel
             PlatformConnection.php
          /Services
             PlatformService.php # Centraliza la gestión de las diferentes plataformas
-			/platforms
-				/facebook
-					/connect
-						...Clases requeridas para conectar la cuenta
-					/services
-						/lead-forms
-						/ads
-					/routes
-						web.php
-						api.php
-					/config
-						facebook.php
-				/google
-					...
-			/providers
-				LaravelConnectServiceProviders.php
-				RouteServiceProvider.php
-				EventServiceProvider.php
+		/Platforms
+			/facebook
+				/connect
+					...Clases requeridas para conectar la cuenta
+				/services
+					/lead-forms
+					/ads
+				/routes
+					web.php
+					api.php
+				/config
+					facebook.php
+			/google
+				...
+		/providers
+			LaravelConnectServiceProviders.php
+			RouteServiceProvider.php
+			EventServiceProvider.php
 		/config
 			... Recuperar todos los config de las plataformas y retornar bajo el mismo contexto con {package}.{platform}.{key}
 		/database
