@@ -86,7 +86,7 @@ class ExportNotification extends Notification
 
     private function getActionUrl()
     {
-        return config('app.aws_url') . $this->path;
+        return url('files/' . $this->path);
     }
 
     private function getImg()
@@ -101,7 +101,7 @@ class ExportNotification extends Notification
 
     private function getPath()
     {
-        return 'exports/' . base64_encode(microtime()) . '.xlsx';
+        return config('app.s3_exports_path') . '/' . base64_encode(microtime()) . '.xlsx';
     }
 
 }
