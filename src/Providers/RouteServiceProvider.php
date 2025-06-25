@@ -10,9 +10,8 @@ class RouteServiceProvider extends ServiceProvider
 
     public function map()
     {
-
-        $this->mapApiRoutes();      
-
+        $this->mapApiRoutes();   
+        $this->mapPlatformRoutes();   
     }
 
     protected function mapApiRoutes()
@@ -30,6 +29,18 @@ class RouteServiceProvider extends ServiceProvider
 
         }
 
+    }
+
+    protected function mapPlatformRoutes()
+    {
+        foreach (glob(__DIR__ . '/../Services/Platform/*/routes.php') as $file) {
+            $name = basename(dirname($file));
+            Route::prefix('platform-connect/' . $name)
+                ->as('platform-connect.' . $name . '.')
+                ->namespace('Innoboxrr\LaravelConnect\Http\Controllers')
+                ->group($file);
+
+        }
     }
 
 }
