@@ -1,6 +1,6 @@
 <?php
 
-namespace Innoboxrr\LaravelConnect\Platforms\Google\Connect;
+namespace Innoboxrr\LaravelConnect\Services\Platform\Google\Connect;
 
 class GoogleConnect
 {

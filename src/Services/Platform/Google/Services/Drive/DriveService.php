@@ -1,6 +1,6 @@
 <?php
 
-namespace Innoboxrr\LaravelConnect\Platforms\Google\Services\Drive;
+namespace Innoboxrr\LaravelConnect\Services\Platform\Google\Services\Drive;
 
 class DriveService
 {

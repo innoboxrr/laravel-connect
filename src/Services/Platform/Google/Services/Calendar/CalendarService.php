@@ -1,6 +1,6 @@
 <?php
 
-namespace Innoboxrr\LaravelConnect\Platforms\Google\Services\Calendar;
+namespace Innoboxrr\LaravelConnect\Services\Platform\Google\Services\Calendar;
 
 class CalendarService
 {

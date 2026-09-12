@@ -1,6 +1,6 @@
 <?php
 
-namespace Innoboxrr\LaravelConnect\Platforms\Facebook\Connect;
+namespace Innoboxrr\LaravelConnect\Services\Platform\Facebook\Connect;
 
 class FacebookConnect
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Platforms\Facebook\Services\LeadForm;
+namespace Innoboxrr\LaravelConnect\Services\Platform\Facebook\Services\LeadForm;
 
 class LeadFormService
 {

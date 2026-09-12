@@ -1,6 +1,6 @@
 <?php
 
-namespace Innoboxrr\LaravelConnect\Platforms\Facebook\Services\Ads;
+namespace Innoboxrr\LaravelConnect\Services\Platform\Facebook\Services\Ads;
 
 class AdsService
 {
