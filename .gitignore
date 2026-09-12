@@ -34,3 +34,5 @@ test-results/
 # Generated Files
 /public/storage
 *.log
+/.phpunit.cache
+/.phpunit.result.cache
